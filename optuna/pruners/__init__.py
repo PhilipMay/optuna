@@ -4,6 +4,7 @@ from optuna.pruners._hyperband import HyperbandPruner  # NOQA
 from optuna.pruners._median import MedianPruner  # NOQA
 from optuna.pruners._nop import NopPruner  # NOQA
 from optuna.pruners._percentile import PercentilePruner  # NOQA
+from optuna.pruners._significance import SignificancePruner  # NOQA
 from optuna.pruners._successive_halving import SuccessiveHalvingPruner  # NOQA
 from optuna.pruners._threshold import ThresholdPruner  # NOQA
 
